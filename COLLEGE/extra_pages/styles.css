@@ -1,0 +1,113 @@
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2C3E50;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    text-decoration-color: white;
+  }
+  p {
+    color: white;
+  }
+  
+  .logo img {
+    width: 80px;
+  }
+
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #fefeff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #34495E;
+  }
+  
+  /* Main */
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  form {
+    display: grid;
+    gap: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, select:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  label[for="transcripts"] {
+    display: inline-block;
+    padding: 10px;
+    background-color: #2C3E50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  label[for="transcripts"]:hover {
+    background-color: #34495E;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2C3E50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #34495E;
+  }
+  
+  /* Footer */
+  
+  footer {
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
